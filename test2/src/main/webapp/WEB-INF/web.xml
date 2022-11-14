@@ -30,4 +30,34 @@
     <servlet-name>LoginServlet</servlet-name>
     <url-pattern>/login</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet2</display-name>
+    <servlet-name>LoginServlet2</servlet-name>
+    <servlet-class>kr.co.b.LoginServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet2</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet3</display-name>
+    <servlet-name>LoginServlet3</servlet-name>
+    <servlet-class>kr.co.b.LoginServlet3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet3</servlet-name>
+    <url-pattern>/login3</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet4</display-name>
+    <servlet-name>LoginServlet4</servlet-name>
+    <servlet-class>kr.co.b.LoginServlet4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet4</servlet-name>
+    <url-pattern>/login4</url-pattern>
+  </servlet-mapping>
 </web-app>
