@@ -37,6 +37,11 @@ public class LoginServlet extends HttpServlet {
 		String user_pw = request.getParameter("user_pw");
 		System.out.println("아이디 : " + user_id);
 		System.out.println("패스워드 : " + user_pw);
+		String[] food = request.getParameterValues("food");
+		for(String str : food)
+		{
+			System.out.println("선택한 음식" + str);
+		}
 	}
 
 }
